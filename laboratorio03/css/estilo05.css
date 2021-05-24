@@ -1,0 +1,46 @@
+body {
+  background-color: darkslateblue;
+}
+
+.contenedor {
+  margin: auto;
+  background-color: floralwhite;
+}
+
+.caja1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: greenyellow;
+  padding: 30px;
+}
+
+.caja2 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(18, 252, 69);
+  padding: 30px;
+}
+
+p {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(252, 217, 18);
+  padding: 30px;
+}
+
+.caja3 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(18, 139, 252);
+  padding: 30px 15px 5px 50px;
+}
+
+.parrafoformato {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(252, 18, 108);
+  padding-top: 5px;
+  padding-left: 45px;
+  padding-right: 20px;
+  padding-bottom: 70px;
+}

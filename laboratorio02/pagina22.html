@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajando con Formularios</title>
+</head>
+<body>
+    <h1>Formulario de Registro de alumnos </h1>
+    <form action="pagina22.html" method="GET">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="txtDNI">Numero de Documento:</label> <input type="text" name="txtDni" id="txtDni" placeholder="Ingrese su DNI" required><br>
+            <label for="txtNOM">Nombres:</label><input type="text" name="txtNOM" id="txtNOM" placeholder="Ingrese su Nombre" required><br>
+            <label for="txtAPE">Apellidos:</label><input type="text" name="txtAPE" id="txtAPE" placeholder="Ingrese su Apellido" required><br>
+            <label for="txtFEC">Fecha de Nacimiento:</label><input type="date" name="txtFEC" id="txtFEC" required><br>
+            <label for="txtDir">Direción:</label><input type="text" name="txtDir" id="txtDir" placeholder="Ingrese su Direción" required><br>
+            <label for="cboDistrito">Distrito:</label>
+            <select name="cboDistrito" id="cboDistrito" required>
+                <option value="0">Selecione un Distrito</option>
+                <option value="1">Cercado de Lima</option>
+                <option value="2">Breña</option>
+                <option value="3">San Juan de Lurigancho</option>
+                <option value="4">Jesús María</option>
+                <option value="5">La Molina</option>
+            </select><br>
+            <label>Sexo:</label><input type="radio" name="sexo" id="rbM"><label for="rbM">Masculino</label><input type="radio" name="sexo" id="rbf"> <label for="rbf">Femenino</label><br>
+            <label>Estado:</label><input type="checkbox" name="chikEst" id="chikEst"><label for="chikEst">Habilitado</label><br>
+            <label for="fulfoto">Fotografia:</label><input type="file" name="fulfoto" id="fulfoto">
+        </fieldset>
+        <fieldset>
+            <legend>Datos del Curso</legend>
+            <label for="cbociclo">Curso:</label>
+            <select name="cbociclo" id="cbociclo" required>
+                <option value="0">Selecione un Ciclo</option>
+                <option value="1">I ciclo</option>
+                <option value="2">II ciclo</option>
+                <option value="3">III ciclo</option>
+                <option value="4">IV ciclo</option>
+                <option value="5">V ciclo</option>
+                <option value="6">VI ciclo</option>
+            </select><br>
+            <label>Turno:</label><input type="radio" name="turno" id="rbM"><label for="rbM">Mañana</label><input type="radio" name="turno" id="rbt"><label for="rbt">Tarde</label><input type="radio" name="Turno" id="rbn"><label for="rbn">Noche</label><br>
+            <label for="cboSeccion">Seccion</label>
+            <select name="cboSeccion" id="cboSeccion" required>
+                <option value="0">Selecione se Seccion</option>
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+                <option value="4">D</option>
+                <option value="5">E</option>
+                <option value="6">F</option>
+                <option value="7">G</option>
+            </select>
+        </fieldset>
+        <button type="submit" name="btnRegistrar" id="btnRegistrar">Registrar</button>
+        <button type="button" name="btnactualizar" id="btnactualizar">Actualizar</button>
+        <button type="reset" name="btneliminar" id="btneliminar">Eliminar</button>
+    </form>
+</body>
+</html>

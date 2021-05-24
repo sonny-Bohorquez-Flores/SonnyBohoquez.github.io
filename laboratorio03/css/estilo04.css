@@ -1,0 +1,75 @@
+body {
+  background-color: violet;
+}
+
+.contenedor {
+  background-color: yellow;
+}
+
+.caja01 {
+  background-color: yellowgreen;
+  border-style: solid;
+  border-width: 5px;
+  border-color: cadetblue;
+}
+
+/* Agregar margenes a cada etiqueta div */
+/* Agregamos margen a la izquierda */
+
+.caja02 {
+  background-color: yellowgreen;
+  border-style: solid;
+  border-width: 5px;
+  border-color: cadetblue;
+  margin-left: 40px;
+}
+
+/* Agregamos un margen a la Derecha */
+
+.caja03 {
+  background-color: yellowgreen;
+  border-style: solid;
+  border-width: 5px;
+  border-color: cadetblue;
+  margin-right: 40px;
+}
+
+/* Agregamos un margen a la parte superior  */
+
+.caja04 {
+  background-color: yellowgreen;
+  border-style: solid;
+  border-width: 5px;
+  border-color: cadetblue;
+  margin-top: 40px;
+}
+
+/* Agregamos un margen a la parte inferior */
+
+.caja05 {
+  background-color: yellowgreen;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(252, 7, 7);
+  margin-bottom: 40px;
+}
+
+/* Agregamos un margen personalizado */
+
+/* Agregamos margen personalizado*/
+.caja06 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: indigo;
+  margin: 20px 80px 30px 10px;
+}
+
+/* Agregamos el div al medio de todo */
+.caja07 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: indigo;
+  margin: auto;
+}
