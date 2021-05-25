@@ -1,2 +1,2 @@
-# SonnyBohoquez.github.io
+# SonnyBohorquez.github.io
 Proyectos Web
