@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  }
+  
+  ul {
+    list-style-type: nome;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: antiquewhite;
+    overflow: auto;
+    border: 1px solid black;
+  }
+  li {
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.activo {
+    background-color: green;
+    color: white;
+  }
+  
+  li a:hover:not(.activo) {
+    background-color: slategray;
+    color: white;
+  }

@@ -1,5 +1,7 @@
 body {
+  width: 100%;
   margin: 0;
+  height: 100%;
 }
 
 ul {
@@ -8,7 +10,6 @@ ul {
   padding: 0;
   width: 15%;
   background-color: antiquewhite;
-  position: fixed;
   overflow: auto;
   border: 1px solid black;
 }
